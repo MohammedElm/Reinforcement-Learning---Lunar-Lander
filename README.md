@@ -2,7 +2,7 @@
 
 In this lab we will solve a classical problem in optimal control theory: the lunar lander. The
 environment is implemented in the OpenGym library3. The goal will be to train a network to make a successful landing on the
-moon.
+moon.\\
 Consider figure 1: the goal is to manoeuvre the space ship so that it lands between the two flags.
 The landing pad is always at coordinates (0, 0). The coordinates are the first two numbers in the
 state vector. Reward for moving from the top of the screen to the landing pad and zero speed
