@@ -15,9 +15,13 @@ The state of the problem s is an 8-dimensional variable: s1 and s2 are respectiv
 x axis and y axis; s3 and s4 are the x, y axis velocity terms; s5, s6 are the lander angle and angular
 velocity; s7 and s8 are the left and right contact points (boolean values; to indicate if the space
 ship touched land). The action space, instead, can be discrete or continuous: \
-1. Discrete action space. Four discrete actions are available: do nothing (0), fire left orientation
+
+ #### 1. Discrete action space.
+ Four discrete actions are available: do nothing (0), fire left orientation
 engine (1), fire main engine (2), fire right orientation engine (3). \
-2. Continuous action space. In this case the action a is a 2-dimensional variable, whose values
+
+#### 2. Continuous action space.
+In this case the action a is a 2-dimensional variable, whose values
 are between −1 and 1. a1 controls the main engine: from −1 to 0 is off, from 0 to 1 throttles
 from 50% to 100% of the power (engine can’t work with less than 50% power). a2 instead is
 used to control direction: from −1 to −0.5 fires the left engine; from −0.5 to 0.5 is disabled;
