@@ -49,7 +49,7 @@ The notebook PPO Implementation implements the following algorithm for the conti
 
 ## Results
 
-In the directory models, we report our Pytorch that solves the problem:
+In the directory models, we report our Pytorch Neural Networks (target and policy networks) that solves the problem:
 
 ##### DQN:
 Average reward over 50 episodes is roughly 205.
