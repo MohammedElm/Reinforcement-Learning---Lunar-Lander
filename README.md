@@ -28,3 +28,33 @@ used to control direction: from −1 to −0.5 fires the left engine; from −0.
 from 0.5 to 1 fires the right engine.
 
 ![plot](./lunar_lander.png)
+
+We provide three notebooks that implement three state-of-the-art algorithms that solve this problem (descrete and continuous versions):
+
+#### Episodic DQN Algorithm:
+The notebook DQN Implementation implements the following algorithm for the descrete version the lunar lander problem:
+
+![plot](./DQN.png)
+
+#### DDPG Algorithm:
+The notebook DDPG Implementation implements the following algorithm for the continuous version the lunar lander problem:
+
+![plot](./DDPG.png)
+
+#### PPO Algorithm:
+The notebook PPO Implementation implements the following algorithm for the continuous version the lunar lander problem:
+
+![plot](./PPO.png)
+
+
+## Results
+
+In the directory models, we report our Pytorch that solves the problem:
+
+##### DQN:
+Average reward over 50 episodes is roughly 205.
+##### DDPG:
+Average reward over 50 episodes is roghfly 250.
+#### PPO 
+Average reward over 50 episodes is roughly 210.
+
