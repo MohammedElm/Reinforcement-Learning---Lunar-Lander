@@ -27,24 +27,24 @@ from 50% to 100% of the power (engine can’t work with less than 50% power). a2
 used to control direction: from −1 to −0.5 fires the left engine; from −0.5 to 0.5 is disabled;
 from 0.5 to 1 fires the right engine.
 
-![plot](./lunar_lander.png)
+![plot](./figures/lunar_lander.png)
 
 We provide three notebooks that implement three state-of-the-art algorithms that solve this problem (descrete and continuous versions):
 
 #### Episodic DQN Algorithm:
 The notebook DQN Implementation implements the following algorithm for the descrete version the lunar lander problem:
 
-![plot](./DQN.png)
+![plot](./figures/DQN.png)
 
 #### DDPG Algorithm:
 The notebook DDPG Implementation implements the following algorithm for the continuous version the lunar lander problem:
 
-![plot](./DDPG.png)
+![plot](./figures/DDPG.png)
 
 #### PPO Algorithm:
 The notebook PPO Implementation implements the following algorithm for the continuous version the lunar lander problem:
 
-![plot](./PPO.png)
+![plot](./figures/PPO.png)
 
 
 ## Results
